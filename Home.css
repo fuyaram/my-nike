@@ -1,0 +1,64 @@
+.container {/* Adjust the maximum width as needed */
+    width: 100%;
+}
+
+.container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.container34 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ margin-bottom: 100px;
+  }
+  
+  .border-box34 {
+    max-width: 1300px;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  #jay{
+    font-size: 20px;
+  }
+  .button-container34 {
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 35%;
+  }
+  #iph1{
+    font-size: 80px;
+  }
+  #iph11{
+   font-size: 30px;
+  }
+  .shop-button34,
+  .explore-button34 {
+    margin-left: 80px;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background-color: #18191a;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+  .video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Set background color as desired */
+  }

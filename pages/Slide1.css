@@ -1,0 +1,42 @@
+.container404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ /* Adjust as needed for your layout */
+  }
+  
+  .borderBox {
+    display: flex;
+    width: 85%;
+    height: 40px;
+    border: 1px solid #000dff;
+    border-radius: 5px;
+    overflow: hidden; /* To hide overflow from buttons */
+  }
+  
+  .menuButton {
+    font-size: 12px;
+    flex: 1;
+    padding: 10px;
+    background-color: #161718;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .menuButton:hover {
+    background-color: #444a4f;
+  }
+  
+  @media (max-width: 768px) {
+    .borderBox {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .menuButton {
+      width: 100%;
+    }
+  }
+  

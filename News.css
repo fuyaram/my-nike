@@ -1,0 +1,29 @@
+/* App.css */
+
+.box {
+    margin-left: 80px;
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #171a17;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
